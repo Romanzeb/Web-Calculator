@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.buttons{
+    width: 350px; 
+    margin: 0 auto; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px; 
+}
+
+.container{     
+    width: 350px; 
+    margin: 20px auto; 
+    padding: 20px;
+}
+
+.result{
+    font-size: 48px; 
+    margin-bottom: 20px;
+}
+
+.select{
+    background-color: rgb(138, 135, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.select1{
+    background-color:rgb(237, 232, 232);
+    color: black;
+}
+
+.select2{
+    background-color: orange;
+}
+
+.selectSubstraction{
+    font-size: 36px;
+    background-color: orange;
+}
+
+.selectZero{
+    grid-column: span 2;
+    background-color: rgb(138, 135, 130);
+    border-radius: 135px;
+    width: 165px;
+    height: 80px;
+    font-size: 35px;
+}
